@@ -26,6 +26,7 @@ namespace WerewolfClient
         private string _myRole;
         private bool _isDead;
         private List<Player> players = null;
+        private Form _login;
         public MainForm()
         {
             InitializeComponent();
@@ -34,6 +35,9 @@ namespace WerewolfClient
             {
                 this.Controls["GBPlayers"].Controls["BtnPlayer" + i].Click += new System.EventHandler(this.BtnPlayerX_Click);
                 this.Controls["GBPlayers"].Controls["BtnPlayer" + i].Tag = i;
+                this.Controls["GBPlayers"].Controls["BtnPlayer" + i].Enabled = false;
+                this.Controls["GBPlayers"].Controls["BtnPlayer" + i].Text = null;
+                ((Button)this.Controls["GBPlayers"].Controls["BtnPlayer" + i]).Image = null;
             }
 
             _updateTimer = new Timer();
@@ -44,6 +48,11 @@ namespace WerewolfClient
             EnableButton(BtnVote, false);
             _myRole = null;
             _isDead = false;
+        }
+
+        public void setLogin(Login _login)
+        {
+            this._login = _login;
         }
 
         private void OnTimerEvent(object sender, EventArgs e)
@@ -68,6 +77,7 @@ namespace WerewolfClient
             int i = 0;
             foreach (Player player in wm.Players)
             {
+                Controls["GBPlayers"].Controls["BtnPlayer" + i].Enabled = true;
                 Controls["GBPlayers"].Controls["BtnPlayer" + i].Text = player.Name;
                 if (player.Name == wm.Player.Name || player.Status != Player.StatusEnum.Alive)
                 {
@@ -163,6 +173,16 @@ namespace WerewolfClient
                     case EventEnum.GameStopped:
                         AddChatMessage("Game is finished, outcome is " + wm.EventPayloads["Game.Outcome"]);
                         _updateTimer.Enabled = false;
+
+                        break;
+                    case EventEnum.ExitGame:
+                        BtnJoin.Visible = true;
+                        BtnAction.Visible = false;
+                        BtnVote.Visible = false;
+                        EnableButton(BtnJoin, true);
+                        EnableButton(BtnAction, false);
+                        EnableButton(BtnVote, false);
+                        AddChatMessage("You're leaving the game #" + wm.EventPayloads["Game.Id"] + ".");
                         break;
                     case EventEnum.GameStarted:
                         players = wm.Players;
@@ -209,6 +229,12 @@ namespace WerewolfClient
                         }
                         EnableButton(BtnVote, true);
                         EnableButton(BtnJoin, false);
+                        foreach (int i in Enumerable.Range(0, 16))
+                        {
+                            Controls["GBPlayers"].Controls["BtnPlayer" + i].Enabled = false;
+                            Controls["GBPlayers"].Controls["BtnPlayer" + i].Text = null;
+                            ((Button)this.Controls["GBPlayers"].Controls["BtnPlayer" + i]).Image = null;
+                        }
                         UpdateAvatar(wm);
                         break;
                     case EventEnum.SwitchToDayTime:
@@ -254,7 +280,7 @@ namespace WerewolfClient
                         }
                         break;
                     case EventEnum.YouShotDead:
-                        AddChatMessage("You're shot dead by gunner.");
+                        if(!_isDead) AddChatMessage("You're shot dead by gunner.");
                         _isDead = true;
                         break;
                     case EventEnum.OtherShotDead:
@@ -265,6 +291,13 @@ namespace WerewolfClient
                         {
                             AddChatMessage("You've been revived by medium.");
                             _isDead = false;
+                        }
+                        break;
+                    case EventEnum.SignOut:
+                        if (wm.EventPayloads["Success"] == "True")
+                        {
+                            _login.Visible = true;
+                            this.Visible = false;
                         }
                         break;
                 }
@@ -360,6 +393,14 @@ namespace WerewolfClient
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             Environment.Exit(0);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            WerewolfCommand wcmd = new WerewolfCommand();
+            wcmd.Action = WerewolfCommand.CommandEnum.SignOut;
+            wcmd.Payloads = new Dictionary<string, string>();
+            controller.ActionPerformed(wcmd);
         }
     }
 }

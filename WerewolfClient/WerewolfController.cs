@@ -18,6 +18,7 @@ namespace WerewolfClient
             LeaveGame = 6,
             Vote = 7,
             Action = 8,
+            ExitGame = 9
         };
         public new CommandEnum Action { get; set; }
     }
@@ -56,10 +57,15 @@ namespace WerewolfClient
                             break;
 
                         case WerewolfCommand.CommandEnum.SignOut:
+                            wm.SignOut();
                             break;
 
                         case WerewolfCommand.CommandEnum.JoinGame:
                             wm.JoinGame();
+                            break;
+
+                        case WerewolfCommand.CommandEnum.ExitGame:
+                            wm.ExitGame();
                             break;
 
                         case WerewolfCommand.CommandEnum.RequestUpdate:

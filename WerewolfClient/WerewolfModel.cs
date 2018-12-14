@@ -53,6 +53,8 @@ namespace WerewolfClient
             YouShotDead = 13,
             OtherShotDead = 14,
             Alive = 15,
+            SignOut = 16,
+            ExitGame = 17
         }
         public const string ROLE_SEER = "Seer";
         public const string ROLE_AURA_SEER = "Aura Seer";
@@ -315,6 +317,31 @@ namespace WerewolfClient
             }
             NotifyAll();
         }
+        public void ExitGame()
+        {
+            try
+            {
+                try
+                {
+                    _game = _gameEP.GameSessionSessionIDDelete(_player.Session);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                }
+                Console.WriteLine("Leave game #{0}", _game.Id);
+                _event = EventEnum.ExitGame;
+                _eventPayloads["Success"] = TRUE;
+                _eventPayloads["Game.Id"] = _game.Id.ToString();
+            } catch (Exception ex)
+            {
+                throw new Exception(); 
+                Console.WriteLine(ex.ToString());
+                _event = EventEnum.ExitGame;
+                _eventPayloads["Success"] = FALSE;
+                _eventPayloads["Error"] = ex.ToString();
+            }
+        }
         public void SignIn(string server, string login, string password)
         {
             try
@@ -341,8 +368,9 @@ namespace WerewolfClient
                 PlayerApi playerEP = new PlayerApi(server);
                 Player p = new Player(null, login, password, null, null, null, Player.StatusEnum.Offline);
                 _player = playerEP.AddPlayer(p);
-                
+                InitilizeModel(server);
                 Console.WriteLine(_player.Id);
+                _player = _playerEP.LoginPlayer(p);
                 _event = EventEnum.SignIn;
                 _eventPayloads["Success"] = TRUE;
             } catch (Exception ex)
@@ -354,7 +382,23 @@ namespace WerewolfClient
             }
             NotifyAll();
         }
-
+        public void SignOut()
+        {
+            try
+            {
+                _playerEP.LogoutPlayer(_player.Session);
+                _event = EventEnum.SignOut;
+                _eventPayloads["Success"] = TRUE;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                _event = EventEnum.SignOut;
+                _eventPayloads["Success"] = FALSE;
+                _eventPayloads["Error"] = ex.ToString();
+            }
+            NotifyAll();
+        }
         public void Vote(string target)
         {
             try
