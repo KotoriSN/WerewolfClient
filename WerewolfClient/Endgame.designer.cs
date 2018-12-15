@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp2
+﻿namespace WerewolfClient
 {
     partial class Endgame
     {
@@ -68,7 +68,7 @@
             // pictureBox16
             // 
             this.pictureBox16.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox16.Image = global::WerewolfClient.Properties.Resources._09medium1;
+            this.pictureBox16.Image = global::WerewolfClient.Properties.Resources.i_medium1;
             this.pictureBox16.Location = new System.Drawing.Point(433, 81);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(40, 37);
@@ -80,7 +80,7 @@
             // pictureBox15
             // 
             this.pictureBox15.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox15.Image = global::WerewolfClient.Properties.Resources._10Priest;
+            this.pictureBox15.Image = global::WerewolfClient.Properties.Resources.i_Priest;
             this.pictureBox15.Location = new System.Drawing.Point(433, 121);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(40, 37);
@@ -91,7 +91,7 @@
             // pictureBox14
             // 
             this.pictureBox14.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox14.Image = global::WerewolfClient.Properties.Resources._11Seer;
+            this.pictureBox14.Image = global::WerewolfClient.Properties.Resources.i_Seer;
             this.pictureBox14.Location = new System.Drawing.Point(433, 161);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(40, 37);
@@ -102,7 +102,7 @@
             // pictureBox13
             // 
             this.pictureBox13.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox13.Image = global::WerewolfClient.Properties.Resources._12_Killer;
+            this.pictureBox13.Image = global::WerewolfClient.Properties.Resources.i_Killer;
             this.pictureBox13.Location = new System.Drawing.Point(433, 201);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(40, 37);
@@ -113,7 +113,7 @@
             // pictureBox8
             // 
             this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox8.Image = global::WerewolfClient.Properties.Resources._08Jailer;
+            this.pictureBox8.Image = global::WerewolfClient.Properties.Resources.i_Jailer;
             this.pictureBox8.Location = new System.Drawing.Point(92, 360);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(40, 37);
@@ -124,7 +124,7 @@
             // pictureBox7
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.Image = global::WerewolfClient.Properties.Resources._07Hunter;
+            this.pictureBox7.Image = global::WerewolfClient.Properties.Resources.i_Hunter;
             this.pictureBox7.Location = new System.Drawing.Point(92, 320);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(40, 37);
@@ -135,7 +135,7 @@
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox6.Image = global::WerewolfClient.Properties.Resources._06Gunner;
+            this.pictureBox6.Image = global::WerewolfClient.Properties.Resources.i_Gunner;
             this.pictureBox6.Location = new System.Drawing.Point(92, 280);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(40, 37);
@@ -146,7 +146,7 @@
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.Image = global::WerewolfClient.Properties.Resources._05Fool;
+            this.pictureBox5.Image = global::WerewolfClient.Properties.Resources.i_Fool;
             this.pictureBox5.Location = new System.Drawing.Point(92, 240);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(40, 37);
@@ -157,7 +157,7 @@
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = global::WerewolfClient.Properties.Resources._04Doctor;
+            this.pictureBox4.Image = global::WerewolfClient.Properties.Resources.i_Doctor;
             this.pictureBox4.Location = new System.Drawing.Point(92, 201);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(40, 37);
@@ -168,7 +168,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::WerewolfClient.Properties.Resources._03Bodyguard;
+            this.pictureBox3.Image = global::WerewolfClient.Properties.Resources.i_Bodyguard;
             this.pictureBox3.Location = new System.Drawing.Point(92, 161);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(40, 37);
@@ -179,7 +179,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::WerewolfClient.Properties.Resources._02Theseer;
+            this.pictureBox2.Image = global::WerewolfClient.Properties.Resources.i_Theseer;
             this.pictureBox2.Location = new System.Drawing.Point(92, 121);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(40, 37);
@@ -191,7 +191,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::WerewolfClient.Properties.Resources._01Werewolf;
+            this.pictureBox1.Image = global::WerewolfClient.Properties.Resources.i_Werewolf;
             this.pictureBox1.Location = new System.Drawing.Point(92, 81);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(40, 37);
@@ -216,7 +216,7 @@
             // pictureBox12
             // 
             this.pictureBox12.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox12.Image = global::WerewolfClient.Properties.Resources._13Villager;
+            this.pictureBox12.Image = global::WerewolfClient.Properties.Resources.i_Villager;
             this.pictureBox12.Location = new System.Drawing.Point(433, 240);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(40, 37);
@@ -227,7 +227,7 @@
             // pictureBox11
             // 
             this.pictureBox11.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox11.Image = global::WerewolfClient.Properties.Resources._14Werewolf;
+            this.pictureBox11.Image = global::WerewolfClient.Properties.Resources.i_Werewolf;
             this.pictureBox11.Location = new System.Drawing.Point(433, 280);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(40, 37);
@@ -238,7 +238,7 @@
             // pictureBox10
             // 
             this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox10.Image = global::WerewolfClient.Properties.Resources._15Wolfseer;
+            this.pictureBox10.Image = global::WerewolfClient.Properties.Resources.i_Wolfseer;
             this.pictureBox10.Location = new System.Drawing.Point(433, 320);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(40, 37);
@@ -249,7 +249,7 @@
             // pictureBox9
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox9.Image = global::WerewolfClient.Properties.Resources._16Wolfshaman;
+            this.pictureBox9.Image = global::WerewolfClient.Properties.Resources.i_Wolfshaman;
             this.pictureBox9.Location = new System.Drawing.Point(433, 360);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(40, 37);

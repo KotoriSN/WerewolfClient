@@ -9,20 +9,71 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
 using WMPLib;
+using CommandEnum = WerewolfClient.WerewolfCommand.CommandEnum;
+using EventEnum = WerewolfClient.WerewolfModel.EventEnum;
 
-namespace WindowsFormsApp2
+namespace WerewolfClient
 {
-    public partial class Mainmanu : Form
+    public partial class Mainmanu : Form, View
     {
         WindowsMediaPlayer player = new WindowsMediaPlayer();
-        SoundPlayer sp = new SoundPlayer(@"C:\Users\Attachai\Source\Repos\FormWerewolf\WindowsFormsApp2\Resources\PressButton.wav");
-        
-        
+        SoundPlayer sp = new SoundPlayer(@"C:\Users\Kotori\Source\Repos\WerewolfClient\WerewolfClient\Resources\PressButton.wav");
+        private Form _login;
+        private Form game;
+        private WerewolfController controller;
+
+
         public Mainmanu()
         {
             
             InitializeComponent();
             player.URL = "MainMenuBgmusic.mp3";
+        }
+
+        public void setGame(MainForm_16 game)
+        {
+            this.game = game;
+        }
+
+        public void setLogin(Login_WF _login)
+        {
+            this._login = _login;
+        }
+
+        public void setController(Controller c)
+        {
+            controller = (WerewolfController)c;
+        }
+
+        public void Notify(Model m)
+        {
+            if (m is WerewolfModel)
+            {
+                WerewolfModel wm = (WerewolfModel)m;
+                switch (wm.Event)
+                {
+                    case EventEnum.JoinGame:
+                        if (wm.EventPayloads["Success"] == WerewolfModel.TRUE)
+                        {
+                            game.Visible = true;
+                            this.Visible = false;
+                        }
+                        else
+                        {
+                            MessageBox.Show("You can't join the game, please try again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                        break;
+                    case EventEnum.SignOut:
+                        if (wm.EventPayloads["Success"] == "True")
+                        {
+                            _login.Visible = true;
+                            this.Visible = false;
+                        }
+                        break;
+                }
+                // need to reset event
+                wm.Event = EventEnum.NOP;
+            }
         }
 
         HowToPlay f2 = new HowToPlay();
@@ -36,6 +87,9 @@ namespace WindowsFormsApp2
         private void pictureBox3_Click(object sender, EventArgs e) 
         {
             sp.Play();
+            WerewolfCommand wcmd = new WerewolfCommand();
+            wcmd.Action = CommandEnum.JoinGame;
+            controller.ActionPerformed(wcmd);
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
@@ -48,9 +102,7 @@ namespace WindowsFormsApp2
         private void pictureBox6_Click(object sender, EventArgs e)
         {
             sp.Play();
-            this.Hide();
-            f2.ShowDialog();
-            this.Show();
+            System.Diagnostics.Process.Start("https://werewolf.chat/Roles");
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
@@ -69,7 +121,10 @@ namespace WindowsFormsApp2
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             sp.Play();
-          
+            WerewolfCommand wcmd = new WerewolfCommand();
+            wcmd.Action = WerewolfCommand.CommandEnum.SignOut;
+            wcmd.Payloads = new Dictionary<string, string>();
+            controller.ActionPerformed(wcmd);
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)

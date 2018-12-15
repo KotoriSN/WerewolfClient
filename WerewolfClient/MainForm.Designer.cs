@@ -300,7 +300,6 @@
             this.TbChatInput.Name = "TbChatInput";
             this.TbChatInput.Size = new System.Drawing.Size(354, 26);
             this.TbChatInput.TabIndex = 1;
-            this.TbChatInput.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TbChatInput_Enter);
             // 
             // TbChatBox
             // 

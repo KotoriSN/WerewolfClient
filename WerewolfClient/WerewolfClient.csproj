@@ -98,43 +98,51 @@
     <Compile Include="Model.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="View.cs" />
     <Compile Include="WerewolfController.cs" />
     <Compile Include="WerewolfModel.cs" />
     <EmbeddedResource Include="Credits.resx">
       <DependentUpon>Credits.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Endgame.resx">
       <DependentUpon>Endgame.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="HowToPlay.resx">
       <DependentUpon>HowToPlay.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Login_WF.resx">
       <DependentUpon>Login_WF.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm_16.resx">
       <DependentUpon>MainForm_16.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Mainmanu.resx">
       <DependentUpon>Mainmanu.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -174,6 +182,10 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\MorningBgPlay.png" />
+    <Content Include="Resources\NightBgPlay.png" />
+    <None Include="Resources\PlayGame222.jpg" />
+    <None Include="Resources\PlayGame3333.jpg" />
     <None Include="Resources\PressButton.wav" />
     <None Include="Resources\MainMenuBgmusic.wav" />
     <None Include="Resources\VOTE.png" />
@@ -191,23 +203,23 @@
     <None Include="Resources\ON_OFF-MUSIC.png" />
     <None Include="Resources\MuteOff.png" />
     <None Include="Resources\MusicBut.png" />
-    <None Include="Resources\01Werewolf.png" />
-    <None Include="Resources\02Theseer.png" />
-    <None Include="Resources\03Bodyguard.png" />
-    <None Include="Resources\04Doctor.png" />
-    <None Include="Resources\05Fool.png" />
-    <None Include="Resources\06Gunner.png" />
-    <None Include="Resources\07Hunter.png" />
-    <None Include="Resources\08Jailer.png" />
-    <None Include="Resources\09medium.png" />
-    <None Include="Resources\09medium1.png" />
-    <None Include="Resources\10Priest.png" />
-    <None Include="Resources\11Seer.png" />
-    <None Include="Resources\12-Killer.png" />
-    <None Include="Resources\13Villager.png" />
-    <None Include="Resources\14Werewolf.png" />
-    <None Include="Resources\15Wolfseer.png" />
-    <None Include="Resources\16Wolfshaman.png" />
+    <None Include="Resources\i_Werewolf.png" />
+    <None Include="Resources\i_Theseer.png" />
+    <None Include="Resources\i_Bodyguard.png" />
+    <None Include="Resources\i_Doctor.png" />
+    <None Include="Resources\i_Fool.png" />
+    <None Include="Resources\i_Gunner.png" />
+    <None Include="Resources\i_Hunter.png" />
+    <None Include="Resources\i_Jailer.png" />
+    <None Include="Resources\i_medium.png" />
+    <None Include="Resources\i_medium1.png" />
+    <None Include="Resources\i_Priest.png" />
+    <None Include="Resources\i_Seer.png" />
+    <None Include="Resources\i_Killer.png" />
+    <None Include="Resources\i_Villager.png" />
+    <None Include="Resources\i_aWerewolf.png" />
+    <None Include="Resources\i_Wolfseer.png" />
+    <None Include="Resources\i_Wolfshaman.png" />
     <None Include="Resources\ContactButton.png" />
     <None Include="Resources\CREDITS.png" />
     <None Include="Resources\ExitBut.png" />

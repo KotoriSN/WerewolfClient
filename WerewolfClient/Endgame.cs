@@ -10,14 +10,16 @@ using System.Windows.Forms;
 using System.Media;
 using WMPLib;
 
-namespace WindowsFormsApp2
+namespace WerewolfClient
 {
     public partial class Endgame : Form
     {
         WindowsMediaPlayer player = new WindowsMediaPlayer();
+        private Form mainmanu;
 
-        public Endgame()
+        public Endgame(Mainmanu mainmanu)
         {
+            this.mainmanu = mainmanu;
             InitializeComponent();
             player.URL = "EndgameBackgroundmusic.mpc";
         }
@@ -44,12 +46,10 @@ namespace WindowsFormsApp2
         
         private void pictureBox18_Click(object sender, EventArgs e)
         {
-            SoundPlayer sp = new SoundPlayer(@"C:\Users\Attachai\Source\Repos\FormWerewolf\WindowsFormsApp2\Resources\PressButton.wav");
+            SoundPlayer sp = new SoundPlayer(@"C:\Users\Kotori\Source\Repos\WerewolfClient\WerewolfClient\Resources\PressButton.wav");
             sp.Play();
-            Mainmanu f1 = new Mainmanu();
-            this.Hide();
-            f1.ShowDialog();
-            this.Close();
+            mainmanu.Visible = true;
+            this.Visible = false;
             player.controls.stop();
         }
     }

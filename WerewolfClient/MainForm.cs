@@ -82,7 +82,7 @@ namespace WerewolfClient
                 if (player.Name == wm.Player.Name || player.Status != Player.StatusEnum.Alive)
                 {
                     // FIXME, need to optimize this
-                    Image img = Properties.Resources.Icon_villager;
+                    Image img = Properties.Resources.i_Villager;
                     string role;
                     if (player.Name == wm.Player.Name)
                     {
@@ -135,7 +135,7 @@ namespace WerewolfClient
                             img = Properties.Resources.Icon_fool;
                             break;
                         case WerewolfModel.ROLE_HEAD_HUNTER:
-                            img = Properties.Resources.Icon_head_hunter;
+                            img = Properties.Resources.Icon_fool;
                             break;
                         case WerewolfModel.ROLE_SERIAL_KILLER:
                             img = Properties.Resources.Icon_serial_killer;
@@ -187,10 +187,10 @@ namespace WerewolfClient
                     case EventEnum.GameStarted:
                         players = wm.Players;
                         _myRole = wm.EventPayloads["Player.Role.Name"];
-                        AddChatMessage( "Your role is " + _myRole + ".");
+                        AddChatMessage("Your role is " + _myRole + ".");
                         _currentPeriod = Game.PeriodEnum.Night;
                         EnableButton(BtnAction, true);
-                        switch(_myRole)
+                        switch (_myRole)
                         {
                             case WerewolfModel.ROLE_PRIEST:
                                 BtnAction.Text = WerewolfModel.ACTION_HOLYWATER;
@@ -238,12 +238,12 @@ namespace WerewolfClient
                         UpdateAvatar(wm);
                         break;
                     case EventEnum.SwitchToDayTime:
-                        AddChatMessage( "Switch to day time of day #" + wm.EventPayloads["Game.Current.Day"] + ".");
+                        AddChatMessage("Switch to day time of day #" + wm.EventPayloads["Game.Current.Day"] + ".");
                         _currentPeriod = Game.PeriodEnum.Day;
                         LBPeriod.Text = "Day time of";
                         break;
                     case EventEnum.SwitchToNightTime:
-                        AddChatMessage( "Switch to night time of day #" + wm.EventPayloads["Game.Current.Day"] + ".");
+                        AddChatMessage("Switch to night time of day #" + wm.EventPayloads["Game.Current.Day"] + ".");
                         _currentPeriod = Game.PeriodEnum.Night;
                         LBPeriod.Text = "Night time of";
                         break;
@@ -280,7 +280,7 @@ namespace WerewolfClient
                         }
                         break;
                     case EventEnum.YouShotDead:
-                        if(!_isDead) AddChatMessage("You're shot dead by gunner.");
+                        if (!_isDead) AddChatMessage("You're shot dead by gunner.");
                         _isDead = true;
                         break;
                     case EventEnum.OtherShotDead:
@@ -362,7 +362,7 @@ namespace WerewolfClient
         private void BtnPlayerX_Click(object sender, EventArgs e)
         {
             Button btnPlayer = (Button)sender;
-            int index = (int) btnPlayer.Tag;
+            int index = (int)btnPlayer.Tag;
             if (players == null)
             {
                 // Nothing to do here;

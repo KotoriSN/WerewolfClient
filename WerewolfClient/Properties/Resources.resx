@@ -118,86 +118,41 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="BG_LOGIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BG_LOGIN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ChatboxBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChatboxBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ContactButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ContactButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CREDITS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CREDITS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ExitBut" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ExitBut.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="HowtoPlayButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\HowtoPlayButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon_alpha_werewolf" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon_alpha_werewolf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Vote_1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vote(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Icon_aura_seer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icon_aura_seer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icon_bodyguard" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon_bodyguard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ACTION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ACTION.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icon_doctor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon_doctor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Chattext" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chattext.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icon_fool" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon_fool.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PlayGame222" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlayGame222.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icon_gunner" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon_gunner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon_jailer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon_jailer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon_medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon_medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon_priest" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon_priest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon_seer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon_seer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon_serial_killer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon_serial_killer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon_villager" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon_villager.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon_werewolf" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon_werewolf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon_wolf_seer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon_wolf_seer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon_wolf_shaman" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon_wolf_shaman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MusicBut" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MusicBut.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MuteOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MuteOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ON_OFF_MUSIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ON_OFF-MUSIC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PASSWORD__" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PASSWORD--.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SignUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SignUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PLAY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PLAY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PlayButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PlayButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Icon_alpha_werewolf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_alpha_werewolf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SERVER__" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SERVER--.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ON_OFF_MUSIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ON_OFF-MUSIC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_bodyguard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_bodyguard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_fool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_fool.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SignIn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SignIn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,91 +160,148 @@
   <data name="signoutBut" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\signoutBut.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SignUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SignUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Icon_gunner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_gunner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="USERNAME__" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\USERNAME--.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_01Werewolf" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\01Werewolf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_02Theseer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\02Theseer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_03Bodyguard" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\03Bodyguard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_04Doctor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\04Doctor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_05Fool" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\05Fool.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_06Gunner" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\06Gunner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_07Hunter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\07Hunter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_08Jailer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\08Jailer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_09medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\09medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_09medium1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\09medium1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_10Priest" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\10Priest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_11Seer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\11Seer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_12_Killer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\12-Killer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_13Villager" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\13Villager.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_14Werewolf" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\14Werewolf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_15Wolfseer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\15Wolfseer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_16Wolfshaman" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\16Wolfshaman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ACTION" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ACTION.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ChatboxBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ChatboxBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Chattext" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Chattext.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Rounded_Rectangle_1111" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rounded-Rectangle-1111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SelectVote" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SelectVote.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="VOTE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\VOTE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Vote_1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Vote(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MuteOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MuteOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="GameplayBgmusic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GameplayBgmusic.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="MainMenuBgmusic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MainMenuBgmusic.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="SERVER__" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SERVER--.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_seer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_seer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlayGame3333" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlayGame3333.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExitBut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExitBut.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MusicBut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MusicBut.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_priest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_priest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PASSWORD__" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PASSWORD--.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelectVote" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SelectVote.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MorningBgPlay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MorningBgPlay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_wolf_seer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_wolf_seer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlayButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlayButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_wolf_shaman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_wolf_shaman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_doctor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_doctor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="USERNAME__" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\USERNAME--.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_serial_killer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_serial_killer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_villager" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_villager.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ContactButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ContactButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_jailer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_jailer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_werewolf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_werewolf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VOTE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VOTE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rounded_Rectangle_1111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rounded-Rectangle-1111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CREDITS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CREDITS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BG_LOGIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BG_LOGIN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HowtoPlayButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HowtoPlayButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PressButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PressButton.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NightBgPlay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NightBgPlay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainMenuBgmusic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainMenuBgmusic.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="i_aWerewolf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i_aWerewolf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i_Bodyguard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i_Bodyguard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i_Doctor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i_Doctor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i_Fool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i_Fool.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i_Gunner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i_Gunner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i_Hunter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i_Hunter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i_Jailer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i_Jailer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i_Killer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i_Killer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i_medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i_medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i_medium1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i_medium1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i_Priest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i_Priest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i_Seer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i_Seer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i_Theseer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i_Theseer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i_Villager" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i_Villager.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i_Werewolf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i_Werewolf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i_Wolfseer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i_Wolfseer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i_Wolfshaman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i_Wolfshaman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

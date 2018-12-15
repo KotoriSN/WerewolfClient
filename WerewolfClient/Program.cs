@@ -17,16 +17,22 @@ namespace WerewolfClient
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            MainForm mMainForm = new MainForm();
+            Mainmanu mMainForm = new Mainmanu();
+            MainForm_16 mGame = new MainForm_16();
+            Endgame end = new Endgame(mMainForm);
+            mGame.Visible = false;
             mMainForm.Visible = false;
-            Login mLogin = new Login(mMainForm);
-            mMainForm.setLogin(mLogin);
+            Login_WF mLogin = new Login_WF(mMainForm);
             WerewolfController mControler =  WerewolfController.GetInstance();
             WerewolfModel mModel = new WerewolfModel();
+            mMainForm.setLogin(mLogin);
+            mMainForm.setGame(mGame);
+            mGame.setend(end);
 
             // View -> Controller
             mMainForm.setController(mControler);
             mLogin.setController(mControler);
+            mGame.setController(mControler);
 
             // Controler -> Model
             mControler.AddModel(mModel);
@@ -34,6 +40,7 @@ namespace WerewolfClient
             // Model -> View
             mModel.AttachObserver(mLogin);
             mModel.AttachObserver(mMainForm);
+            mModel.AttachObserver(mGame);
 
             Application.Run(mLogin);
         }

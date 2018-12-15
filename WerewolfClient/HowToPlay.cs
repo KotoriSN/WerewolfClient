@@ -10,11 +10,11 @@ using System.Windows.Forms;
 using System.Media;
 
 
-namespace WindowsFormsApp2
+namespace WerewolfClient
 {
     public partial class HowToPlay : Form
     {
-        SoundPlayer sp = new SoundPlayer(@"C:\Users\Attachai\Source\Repos\FormWerewolf\WindowsFormsApp2\Resources\PressButton.wav");
+        SoundPlayer sp = new SoundPlayer(@"C:\Users\Kotori\Source\Repos\WerewolfClient\WerewolfClient\Resources\PressButton.wav");
         
         public HowToPlay()
         {
@@ -39,6 +39,7 @@ namespace WindowsFormsApp2
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             sp.Play();
+            System.Diagnostics.Process.Start("https://werewolf.chat/Roles");
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)

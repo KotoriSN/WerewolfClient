@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp2
+﻿namespace WerewolfClient
 {
     partial class Login_WF
     {
@@ -60,6 +60,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(137, 20);
             this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "http://project-ile.net:2342/werewolf/";
             // 
             // textBox2
             // 
@@ -72,6 +73,7 @@
             // 
             this.textBox3.Location = new System.Drawing.Point(326, 248);
             this.textBox3.Name = "textBox3";
+            this.textBox3.PasswordChar = '*';
             this.textBox3.Size = new System.Drawing.Size(137, 20);
             this.textBox3.TabIndex = 2;
             // 
@@ -191,7 +193,7 @@
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
-            // Login
+            // Login_WF
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -211,7 +213,7 @@
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Name = "Login";
+            this.Name = "Login_WF";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
